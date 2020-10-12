@@ -19,7 +19,7 @@ namespace WindowsFormsTest
 
         private void btnShowMessage_Click(object sender, EventArgs e)
         {
-            MessageBox.Show("Hello World 3!");
+            MessageBox.Show("***Hello World***!");
         }
 
         private void button1_Click(object sender, EventArgs e)

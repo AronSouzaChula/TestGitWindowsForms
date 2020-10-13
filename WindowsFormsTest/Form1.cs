@@ -26,5 +26,10 @@ namespace WindowsFormsTest
         {
             this.Close();
         }
+
+        private void button1_MouseMove(object sender, MouseEventArgs e)
+        {
+
+        }
     }
 }

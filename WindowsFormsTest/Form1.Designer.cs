@@ -67,6 +67,7 @@
             this.button1.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageBeforeText;
             this.button1.UseVisualStyleBackColor = true;
             this.button1.Click += new System.EventHandler(this.button1_Click);
+            this.button1.MouseMove += new System.Windows.Forms.MouseEventHandler(this.button1_MouseMove);
             // 
             // frmMain
             // 

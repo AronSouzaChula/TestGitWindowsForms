@@ -28,9 +28,11 @@
         /// </summary>
         private void InitializeComponent()
         {
+            this.components = new System.ComponentModel.Container();
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(frmMain));
             this.btnShowMessage = new System.Windows.Forms.Button();
             this.button1 = new System.Windows.Forms.Button();
+            this.tmrOneSecond = new System.Windows.Forms.Timer(this.components);
             this.SuspendLayout();
             // 
             // btnShowMessage
@@ -68,6 +70,11 @@
             this.button1.UseVisualStyleBackColor = true;
             this.button1.Click += new System.EventHandler(this.button1_Click);
             // 
+            // tmrOneSecond
+            // 
+            this.tmrOneSecond.Interval = 1000;
+            this.tmrOneSecond.Tick += new System.EventHandler(this.tmrOneSecond_Tick);
+            // 
             // frmMain
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(9F, 20F);
@@ -90,6 +97,7 @@
 
         private System.Windows.Forms.Button btnShowMessage;
         private System.Windows.Forms.Button button1;
+        private System.Windows.Forms.Timer tmrOneSecond;
     }
 }
 

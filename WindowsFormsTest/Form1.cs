@@ -31,5 +31,9 @@ namespace WindowsFormsTest
         {
             this.Close();
         }
+        private void tmrOneSecond_Tick(object sender, EventArgs e)
+        {
+
+        }
     }
 }
